@@ -23,7 +23,7 @@ public class AddObjectMenuItem<T> : IMenuItem where T: IInventory
     
     public virtual void Execute()
     {
-        throw new NotImplementedException();
+        
     }
     
     protected void AddObjectToZoo(T type, List<object> args)
